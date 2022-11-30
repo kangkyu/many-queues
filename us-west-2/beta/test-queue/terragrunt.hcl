@@ -8,5 +8,5 @@ include "root" {
 
 inputs = {
   sqs_prefix = "test-queue"
-  env_name = "beta"
+  env_name   = "beta"
 }
