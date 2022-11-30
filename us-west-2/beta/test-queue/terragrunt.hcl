@@ -1,5 +1,5 @@
 terraform {
-  source = "https://github.com/kangkyu/many-queues-terraform.git//sqs-queue?ref=main"
+  source = "git@github.com:kangkyu/many-queues-terraform.git//sqs-queue?ref=master"
 }
 
 include "root" {
